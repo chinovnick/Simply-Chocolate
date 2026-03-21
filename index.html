@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Chocolate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darktheme.css">
+</head>
+
+<body id="body">
+    <header id="header">
+        <div class="header_container">
+            <img src="img/logo (1).png" alt="Simply Chocolate">
+
+            <div class="menu" id="menu">
+                <a href="#">Home</a>
+                <a href="#">How it’s made?</a>
+                <a href="#">Our products</a>
+                <a href="#">Top sellers</a>
+                <a href="#">Chocolate is loved</a>
+            </div>
+
+            <div class="contacts">
+                <img src="img/instagram.png" alt="Instagram">
+                <img src="img/twitter.png" alt="Twitter">
+            </div>
+
+            <!-- <div class="theme">
+                <button onclick="button()">Change Theme</button>
+            </div> -->
+        </div>
+    </header>
+
+    <main>
+        <section class="section1">
+            <div class="section1_container">
+                <img src="img/choco1.jpg" alt="Chocolate">
+            </div>
+
+            <div class="hero_text">
+                <h1>
+                    Treat yourself or a loved one to
+                    our finest ingredients for a moment
+                    of pure delight!
+                </h1>
+
+                <div class="hero_buttons">
+                    <button class="buy">Buy now</button>
+                    <button class="how">How it's made</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="section2_container">
+                <div class="about_container">
+                    <div class="about">
+                        <img src="img/choco2.png" alt="Unsurpassed taste">
+                        <h1>Unsurpassed taste</h1>
+                        <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a
+                            decadent experience that simply cannot be matched. Savor the richness and complexity of our
+                            Unsurpassed Taste and discover a new level of chocolate bliss.</p>
+                    </div>
+
+                    <div class="about">
+                        <img src="img/Coin.png" alt="Affordable price">
+                        <h1>Affordable price</h1>
+                        <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection
+                            of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without
+                            sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.
+                        </p>
+                    </div>
+
+                    <div class="about">
+                        <img src="img/spoon.svg" alt="Own production">
+                        <h1>Own production</h1>
+                        <p>We take pride in our own production process, ensuring that every step is carefully crafted to
+                            perfection. From selecting the finest ingredients to handcrafting each piece, our attention
+                            to detail is evident in every bite.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section3">
+            <div class="section3_container">
+                <div class="section3_top">
+                    <h1>IT ALL ADDS UP TO ONE EXCEPTIONAL <b>TASTE</b> SENSATION</h1>
+                    <p>At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From
+                        the sourcing of the finest ingredients to the careful crafting of each individual piece, every
+                        step of our process adds up to one exceptional taste sensation.</p>
+                </div>
+
+                <div class="section3_bottom">
+
+                    <!-- Milk Chocolate -->
+                    <button class="taste taste_orange" onclick="openTab('tab1')">
+                        <img src="img/milkchocolate.png" alt="MILK CHOCOLATE">
+                        <p>MILK CHOCOLATE</p>
+                    </button>
+                    <div id="tab1" class="myTab">
+                        <div class="close_btn">
+                            <button onclick="closeTab('tab1')">✕</button>
+                        </div>
+                        <div class="tab_content">
+                            <h1>Milk Chocolate</h1>
+                            <div class="tabs">
+                                <button class="active" onclick="switchTab(this)">Chocolate</button>
+                                <button onclick="switchTab(this)">The Benefits</button>
+                            </div>
+                            <p>Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is
+                                the most consumed type of chocolate. Chocolate was originally sold and consumed as a
+                                beverage in pre-Columbian times.</p>
+                        </div>
+                    </div>
+
+                    <!-- Milk -->
+                    <button class="taste taste_white" onclick="openTab('tab2')">
+                        <img src="img/milk.png" alt="MILK">
+                        <p>MILK</p>
+                    </button>
+                    <div id="tab2" class="myTab">
+                        <div class="close_btn">
+                            <button onclick="closeTab('tab2')">✕</button>
+                        </div>
+                        <div class="tab_content">
+                            <h1>Milk</h1>
+                            <div class="tabs">
+                                <button class="active" onclick="switchTab(this)">Milk</button>
+                                <button onclick="switchTab(this)">The Benefits</button>
+                            </div>
+                            <p>Milk is a white liquid food produced by the mammary glands of mammals. It is the primary
+                                source of nutrition for young mammals before they are able to digest solid food.</p>
+                        </div>
+                    </div>
+
+                    <!-- Nuts -->
+                    <button class="taste taste_dark" onclick="openTab('tab3')">
+                        <img src="img/nuts.png" alt="NUTS">
+                        <p>NUTS</p>
+                    </button>
+                    <div id="tab3" class="myTab">
+                        <div class="close_btn">
+                            <button onclick="closeTab('tab3')">✕</button>
+                        </div>
+                        <div class="tab_content">
+                            <h1>Nuts</h1>
+                            <div class="tabs">
+                                <button class="active" onclick="switchTab(this)">Nuts</button>
+                                <button onclick="switchTab(this)">The Benefits</button>
+                            </div>
+                            <p>Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients.
+                                When eaten as part of a nutrient-dense diet, these nuts may reduce your risk of heart
+                                disease.</p>
+                        </div>
+                    </div>
+
+                    <!-- Semi-Sweet Chocolate -->
+                    <button class="taste taste_white2" onclick="openTab('tab4')">
+                        <img src="img/cocoa.png" alt="SEMI-SWEET CHOCOLATE">
+                        <p>SEMI-SWEET CHOCOLATE</p>
+                    </button>
+                    <div id="tab4" class="myTab">
+                        <div class="close_btn">
+                            <button onclick="closeTab('tab4')">✕</button>
+                        </div>
+                        <div class="tab_content">
+                            <h1>Semi-Sweet Chocolate</h1>
+                            <div class="tabs">
+                                <button class="active" onclick="switchTab(this)">Sweet Chocolate</button>
+                                <button onclick="switchTab(this)">The Benefits</button>
+                            </div>
+                            <p>Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain
+                                an understanding of this type of chocolate is to compare it to other types.</p>
+                        </div>
+                    </div>
+
+                    <div id="overlay"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section4">
+            <div class="section4_container">
+                <h1>HOW IT'S <b>MADE</b></h1>
+
+                <div class="section4_bottom">
+
+                    <div class="section4_left">
+                        <img src="img/video.jpg" alt="chocolate">
+                    </div>
+
+                    <div class="section4_right">
+                        <h1>Try our chocolates today and discover the perfect balance of flavor</h1>
+                        <ul>
+                            <li>Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.
+                            </li>
+                            <li>At the same time, prepare a water bath. Melt the butter on it.</li>
+                            <li>"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula
+                                so that the mass becomes uniform and silky.</li>
+                            <li>Heat the mixture over low heat, letting it barely boil.</li>
+                            <li>Pour the chocolate into special containers (can be replaced with ice molds). Allow to
+                                cool and harden.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="section5_container">
+                <h1>
+                    <b>OUR</b> PRODUCTS
+                </h1>
+
+                <div class="section5_bottom" id="slider">
+
+                    <!-- 1 -->
+                    <div class="card">
+                        <div class="card_container">
+                            <img src="chocoimg/orange.png" alt="Orange Dark chocolate">
+                            <div class="card-info">
+                                <h1>orange</h1>
+                                <h2>Dark chocolate</h2>
+                                <p>45 UAH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="card">
+                        <div class="card_container">
+                            <img src="chocoimg/apple.png" alt="APPLE&CRANBERRY Milk chocolate">
+                            <div class="card-info">
+                                <h1>APPLE&CRANBERRY</h1>
+                                <h2>Milk chocolate</h2>
+                                <p>50 UAH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="card">
+                        <div class="card_container">
+                            <img src="chocoimg/lime.png" alt="lime&sea salt Dark chocolate">
+                            <div class="card-info">
+                                <h1>lime&sea salt</h1>
+                                <h2>Milk chocolate</h2>
+                                <p>66 UAH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="card">
+                        <div class="card_container">
+                            <img src="chocoimg/pineapple.png" alt="pineapple Dark chocolate">
+                            <div class="card-info">
+                                <h1>pineapple</h1>
+                                <h2>Dark chocolate</h2>
+                                <p>54 UAH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="card">
+                        <div class="card_container">
+                            <img src="chocoimg/classic.png" alt="Classic Milk chocolate">
+                            <div class="card-info">
+                                <h1>Classic</h1>
+                                <h2>Milk chocolate</h2>
+                                <p>45 UAH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="card">
+                        <div class="card_container">
+                            <img src="chocoimg/honey.png" alt="honey Milk chocolate">
+                            <div class="card-info">
+                                <h1>honey</h1>
+                                <h2>Milk chocolate</h2>
+                                <p>50 UAH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7 -->
+                    <div class="card">
+                        <div class="card_container">
+                            <img src="chocoimg/fruits.png" alt="Roasted fruits Milk chocolate">
+                            <div class="card-info">
+                                <h1>Roasted fruits</h1>
+                                <h2>Dark chocolate</h2>
+                                <p>66 UAH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+
+                    <div class="card">
+                        <div class="card_container">
+                            <img src="chocoimg/white.png" alt="Classic White chocolate">
+                            <div class="card-info">
+                                <h1>Classic</h1>
+                                <h2>White chocolate</h2>
+                                <p>54 UAH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="slide_button">
+                    <button class="prev">
+                        <img src="svg/left.png" alt="#">
+                    </button>
+                    <button class="next">
+                        <img src="svg/right.png" alt="#">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section6">
+            <div class="section6_container">
+                <h1>
+                    <b>TOP</b> SELLER
+                </h1>
+
+                <div class="section6_middle">
+                    <img src="top/one.png" alt="Good Chocolate">
+                    <img src="top/two.png" alt="Good Quality">
+                    <img src="top/three.png" alt="Good Taste">
+                </div>
+
+                <div class="section6_bottom">
+                    <p>Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has
+                        been around for thousands of years and was first discovered by the Native American tribe called
+                        the Mayans.</p>
+                    <button onclick="openBuy()" class="buy2">Buy now</button>
+                </div>
+
+                <div id="myBuy">
+                    <div class="close_btn">
+                        <button onclick="closeBuy()">✕</button>
+                    </div>
+
+                    <div class="buy_content">
+                        <h1>
+                            <b>BUY</b> NOW
+                        </h1>
+
+                        <div class="basket">
+                            <div class="basket_items choc1">
+                                <img src="buy/choc1.png" alt="chocolate">
+                                <p>100 g</p>
+                            </div>
+
+                            <div class="basket_items choc2">
+                                <img src="buy/choc2.png" alt="chocolate">
+                                <p>200 g</p>
+                            </div>
+
+                            <div class="basket_items choc3">
+                                <img src="buy/choc3.png" alt="chocolate">
+                                <p>300 g</p>
+                            </div>
+                        </div>
+
+                        <div class="order">
+
+                            <!-- Personal Info -->
+                            <div class="order-section order-personal">
+                                <h3>Personal Information</h3>
+                                <div class="personal-inputs">
+                                    <input type="text" class="order-name" placeholder="Name">
+                                    <input type="text" class="order-surname" placeholder="Surname">
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="order-section order-email">
+                                <h3>Email</h3>
+                                <input type="email" class="order-email-input" placeholder="Email">
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="order-section order-phone">
+                                <h3>Phone Number</h3>
+                                <div class="phone-input">
+                                    <div class="phone-code">
+                                        <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                            role="img" preserveAspectRatio="xMidYMid meet" fill="#000000">
+                                            <g>
+                                                <path fill="#005BBB" d="M32 5H4a4 4 0 0 0-4 4v9h36V9a4 4 0 0 0-4-4z">
+                                                </path>
+                                                <path fill="#FFD500" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-9h36v9z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                        <p>+380</p>
+                                    </div>
+                                    <input type="tel" class="order-phone-input" placeholder="Phone number">
+                                </div>
+                            </div>
+
+                            <!-- Card Number -->
+                            <div class="order-section order-card">
+                                <h3>Card Number</h3>
+                                <input type="text" class="order-card-input" placeholder="Enter card">
+                            </div>
+
+                            <!-- Comment -->
+                            <div class="order-section order-comment">
+                                <h3>Comment</h3>
+                                <input type="text" class="order-comment-input" placeholder="Enter text">
+                            </div>
+
+                            <button class="order-submit">Submit Order</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="overlay"></div>
+            </div>
+        </section>
+
+        <section class="section7">
+            <div class="section7_container">
+                <h1>
+                    <b>CHOCOLATE</b> IS LOVED
+                </h1>
+
+                <div class="review_container">
+                    <div class="review">
+                        <img src="img/person1.jpg" alt="good review">
+                        <h1>Victoria Dobrzhanska</h1>
+                        <p>I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer
+                            chocolate.</p>
+                    </div>
+
+                    <div class="review">
+                        <img src="img/person2.jpg" alt="good review">
+                        <h1>Nazar Babenko</h1>
+                        <p>This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut
+                            cream is smooth, and the chocolate is good.</p>
+                    </div>
+
+                    <div class="review">
+                        <img src="img/person3.jpg" alt="good review">
+                        <h1>Olena Kampusch</h1>
+                        <p> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+                            creaminess inside. The wafer is soft but crunchy.</p>
+                    </div>
+                </div>
+
+                <button onclick="openReview()" class="leave_review">
+                    Leave a review
+                </button>
+
+                <div id="myReview">
+                    <div class="close_btn">
+                        <button onclick="closeReview()">✕</button>
+                    </div>
+                    <h1>
+                        LEAVE A REVIEW ABOUT <b>OUR CHOCOLATE</b>
+                    </h1>
+                    <div class="review_content">
+
+                        <div class="review-name">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Surname">
+                        </div>
+
+                        <div class="reviev-number">
+                            <div class="phone-input">
+                                <div class="phone-code">
+                                    <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        role="img" preserveAspectRatio="xMidYMid meet" fill="#000000">
+                                        <g>
+                                            <path fill="#005BBB" d="M32 5H4a4 4 0 0 0-4 4v9h36V9a4 4 0 0 0-4-4z">
+                                            </path>
+                                            <path fill="#FFD500" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-9h36v9z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    <p>+380</p>
+                                </div>
+                                <input type="tel" placeholder="Phone number">
+                            </div>
+                        </div>
+
+                        <div class="review-coment">
+                            <input type="text" placeholder="Enter text">
+                        </div>
+
+                        <button class="order-submit2">Send</button>
+                    </div>
+
+                </div>
+
+                <div id="overlay"></div>
+            </div>
+        </section>
+
+        <section class="section8">
+            <div class="section8_container">
+                <h1>EXPLORE OUR NEW CHOCOLATE FIRST</h1>
+                <p>From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that
+                    will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost
+                    care, each piece is a work of art that is sure to please.</p>
+                <button onclick="openSubscribe()">
+                    Subscribe
+                </button>
+            </div>
+
+            <div id="mySubscribe">
+                <div class="close_btn2">
+                    <button onclick="closeSubscribe()">✕</button>
+                </div>
+
+                <div class="subscribe_image">
+                    <img src="img/back2.png" alt="Chocolate">
+                </div>
+
+                <div class="subscribe_content">
+                    <h1>EXPLORE OUR <br> <b>NEW CHOCOLATE</b> FIRST!</h1>
+                    <div class="form_group">
+                        <input type="text" placeholder="Enter your email">
+                        <button class="submit_btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="overlay"></div>
+
+        </section>
+    </main>
+
+    <div class="btn">
+        <button onclick="button()">Change Theme</button>
+    </div>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_top">
+                <h1>
+                    <b>Chocolate</b> a delicious <br> cure for a bad day
+                </h1>
+
+                <div class="footer_right">
+                    <div>
+                        <h2>Contact us</h2>
+                        <p>+380 (68) 443-94-26</p>
+                        <p>simplychoc@gmail.com</p>
+                    </div>
+
+                    <div class="contacts2">
+                        <img src="img/instagram.png" alt="Instagram">
+                        <img src="img/twitter.png" alt="Twitter">
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="footer_bottom">
+                <a href="#">Home</a>
+                <a href="#">How it’s made?</a>
+                <a href="#">Our products</a>
+                <a href="#">Top sellers</a>
+                <a href="#">Chocolate is loved</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="theme.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

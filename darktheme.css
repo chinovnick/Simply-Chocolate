@@ -1,0 +1,123 @@
+.dark h1 {
+  color: white;
+}
+
+.dark p {
+  color: white;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.dark #menu a {
+  color: white;
+}
+
+.dark .contacts img {
+  filter: brightness(0) invert(1);
+}
+
+.dark .myTab {
+  background-color: black;
+}
+
+.dark .close_btn button {
+  color: white;
+}
+
+.dark .taste_white p,
+.taste_white2 p {
+  color: black;
+}
+
+.dark h2 {
+  color: rgb(183, 183, 183);
+}
+
+.dark .card p {
+  background-color: rgb(51, 51, 51);
+}
+
+.dark button {
+  color: black;
+}
+
+.dark button:hover {
+  background-color: black;
+}
+
+.dark #myBuy {
+  background-color: rgb(21, 21, 21);
+}
+
+.dark .basket_items p {
+  background-color: rgb(51, 51, 51);
+}
+
+.dark .order {
+  background-color: #111;
+  color: #f6f6f6;
+  border: 1px solid #333;
+}
+
+.dark .phone-code {
+  background-color: #111;
+}
+
+.dark .order input {
+  background-color: #222;
+  color: #f6f6f6;
+  border: 1px solid #555;
+}
+
+.dark .order input::placeholder {
+  color: #aaa;
+}
+
+.dark .order .order-submit {
+  background-color: #FD9222;
+  color: #111;
+}
+
+.dark .order .order-submit:hover {
+  background-color: #fff;
+  color: #FD9222;
+  border: 1px solid #FD9222;
+}
+
+.dark .review{
+  background-color: #222;
+}
+
+.dark .leave_review{
+  color: #ffffff;
+}
+
+.dark #myReview {
+  background-color: #111;
+}
+
+.dark .review_content input {
+  background-color: #222;
+  color: #f6f6f6;
+  border: 1px solid #555;
+}
+
+.dark #myReview h1 {
+    color: white;
+}
+
+.dark .close_btn2 button{
+  color: white;
+  background: none;
+}
+
+.dark .form_group input{
+  background-color: #222;
+}
+
+.dark #mySubscribe {
+  background-color: #111;
+}
