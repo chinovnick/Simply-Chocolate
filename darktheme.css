@@ -2,6 +2,14 @@
   color: white;
 }
 
+.dark header {
+  background-color: #00000050;
+}
+
+.dark .how button{
+  color: #ffffff;
+}
+
 .dark p {
   color: white;
 }
@@ -21,6 +29,10 @@
 
 .dark .myTab {
   background-color: black;
+}
+
+.dark .tabs button{
+  color: white  ;
 }
 
 .dark .close_btn button {
@@ -87,11 +99,11 @@
   border: 1px solid #FD9222;
 }
 
-.dark .review{
+.dark .review {
   background-color: #222;
 }
 
-.dark .leave_review{
+.dark .leave_review {
   color: #ffffff;
 }
 
@@ -106,15 +118,15 @@
 }
 
 .dark #myReview h1 {
-    color: white;
+  color: white;
 }
 
-.dark .close_btn2 button{
+.dark .close_btn2 button {
   color: white;
   background: none;
 }
 
-.dark .form_group input{
+.dark .form_group input {
   background-color: #222;
 }
 

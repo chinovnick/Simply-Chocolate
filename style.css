@@ -13,10 +13,13 @@
 header {
     width: 100%;
     padding: 20px 0;
+    background-color: #ffffff47;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 100;
 }
 
 .header_container {
@@ -106,7 +109,7 @@ header {
 
 .section1_container {
     width: 90%;
-    padding: 30px 0;
+    padding: 70px 0;
     margin: auto;
     position: relative;
 }
@@ -1400,6 +1403,7 @@ footer hr {
 }
 
 .footer_bottom {
+    margin-top: 100px;
   width: 100%;
   display: flex;
   gap: 20px;

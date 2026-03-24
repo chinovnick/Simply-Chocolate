@@ -65,4 +65,9 @@ function openSubscribe() {
 function closeSubscribe() {
   document.getElementById("mySubscribe").style.display = "none";
   document.getElementById("overlay").style.display = "none";
+}  
+
+
+function bob() {
+    window.location.href = window.location.href;
 }
