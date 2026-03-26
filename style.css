@@ -224,7 +224,7 @@ header {
     color: #ffffffbc;
 }
 
-/*section3*/
+/*section 3*/
 
 .section3 {
     width: 100%;
@@ -342,8 +342,6 @@ header {
     color: #111111;
     margin-right: 180px;
 }
-
-
 
 .myTab {
     position: fixed;
@@ -513,7 +511,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .section5_container {
@@ -542,7 +540,7 @@ header {
     display: flex;
     padding: 50px 0;
     gap: 50px;
-    overflow-x: hidden;
+    overflow-x: auto;
     scroll-behavior: smooth;
 }
 
@@ -623,6 +621,10 @@ header {
 .slide_button button:hover {
     background-color: #575757;
 }
+
+.section5_bottom::-webkit-scrollbar {
+    display: none;
+}   
 
 /*section 6*/
 
