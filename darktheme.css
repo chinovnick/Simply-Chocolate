@@ -133,3 +133,7 @@
 .dark #mySubscribe {
   background-color: #111;
 }
+
+.dark .menu-button svg path {
+    fill: #fff !important;
+}
