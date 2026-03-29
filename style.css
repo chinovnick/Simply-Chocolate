@@ -1538,33 +1538,33 @@ footer hr {
         text-align: center;
     }
 
-    .section3_top{
+    .section3_top {
         width: 70%;
     }
 
-    .section3_bottom{
+    .section3_bottom {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
     }
 
-    .taste{
+    .taste {
         width: 45%;
         padding-right: 10px;
         margin-bottom: 20px;
     }
 
-    .section4_bottom{
+    .section4_bottom {
         display: flex;
-        flex-direction: column  ;
+        flex-direction: column;
     }
 
     .section6_middle img:last-child {
         display: none;
     }
 
-    .section6_bottom p{
+    .section6_bottom p {
         font-size: 14px;
     }
 
@@ -1572,11 +1572,143 @@ footer hr {
         width: 70vw;
     }
 
-    .section8_container h1{
+    .section8_container h1 {
         width: 50%;
     }
 
-    .section8_container p{
+    .section8_container p {
         width: 70%;
     }
+
+    .slide_button{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .section1_container img {
+        height: 650px;
+    }
+
+    .hero_text {
+        top: 550px;
+        left: 40px;
+    }
+
+    .hero_text h1 {
+        font-size: 18px;
+    }
+
+    .hero_buttons {
+        gap: 10px;
+    }
+
+    .about,
+    .about:nth-child(3) {
+        width: 100%;
+        text-align: start;
+    }
+
+
+    .section3_top {
+        width: 100%;
+    }
+
+    .taste {
+        width: 100%;
+        height: auto;
+    }
+
+    .taste p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .myTab {
+        width: 90%;
+    }
+
+    .section4_left img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section4_bottom {
+        gap: 20px;
+    }
+
+    .section4_right ul li {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .card {
+        min-width: 90%;
+        scroll-snap-align: center;
+    }
+
+    .section5_bottom {
+        gap: 15px;
+        padding: 30px 10px;
+        scroll-snap-type: x mandatory;
+    }
+
+    .section6_middle {
+        flex-direction: column;
+    }
+
+    .section6_middle img {
+        height: 250px;
+    }
+
+    .section6_bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section6_bottom p {
+        width: 100%;
+    }
+
+    .review_container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .review {
+        width: 100%;
+    }
+
+    .section8_container h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .section8_container p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .footer_top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: start;
+    }
+
+    #myReview,
+    #myBuy,
+    #mySubscribe {
+        width: 95%;
+        height: auto;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
 }
